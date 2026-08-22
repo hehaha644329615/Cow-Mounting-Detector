@@ -42,11 +42,6 @@ results/demo_results/
 
 # 日志
 *.log
-
-# 图片
-*.jpg
-*.jpeg
-*.txt
 # 数据集和模型文件（太大，不上传）
 cow_image/
 data/
