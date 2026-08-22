@@ -2,16 +2,48 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
-# 模型文件（如果太大不想提交到Git，可选）
-# *.pt
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
 
-# 数据集（太大，不提交）
-data/
-
-# 系统文件
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
-Thumbs.db
 
-# 输出结果（太大，不提交）
+# 项目相关 - 数据和训练缓存（太大，不上传）
+data/
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# 输出结果（可选，如果太大也不上传）
 results/demo_results/
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+
+# 日志
+*.log
+
+# 图片
+*.jpg
+*.jpeg
+*.txt
